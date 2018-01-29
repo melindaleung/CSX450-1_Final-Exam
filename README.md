@@ -14,7 +14,7 @@ Abalone is a common name for marine snails. They have a highly iridescent inner 
 
 #### 1. Domain
 
-This dataset observed abalone, which is part of the life & biology domain. It comes from an original study in "The Population Biology of Abalone in Tasmania" by Warwick Nash, Tracy Sellers, Simon Talbot, Andrew Cawthorn, and Wes Ford. It was donated by the Marine Resources Division in the Marine Research Laboratories of Taroona. Today, it is found in the the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/abalone).
+This dataset observed abalone, which is part of the life & biology domain. It comes from an original study in "The Population Biology of Abalone in Tasmania" by Warwick Nash, Tracy Sellers, Simon Talbot, Andrew Cawthorn, and Wes Ford. The dataset was donated by the Marine Resources Division in the Marine Research Laboratories of Taroona. Today, it is found in the the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/abalone).
 
 #### 2. Problem Statement
 
@@ -22,7 +22,7 @@ The goal of this dataset is to predict the age of abalone from its physical meas
 
 #### 3. Description of Dataset
 
-This dataset is 269528 bytes, or approxiamately 270 kB. This data has 9 attributes collected from a study on 4177 abalone. Variables include sex, length, diameter, height, whole weight, shucked weight, viscera weight, shell weight, and number of rings. The last attribute, number of rings, is the attribute to predict, either as a continuous value or as a classification problem. This value represents the age of the abalone.
+This dataset is 269528 bytes, or approxiamately 270 kB. This dataset has 9 attributes collected from a study on 4177 abalone. Variables include sex, length, diameter, height, whole weight, shucked weight, viscera weight, shell weight, and number of rings. The last attribute, number of rings, is the attribute to predict, either as a continuous value or as a classification problem. This value represents the age of the abalone.
 
 ```{r}
 'data.frame':	4177 obs. of  9 variables:
@@ -49,4 +49,4 @@ To test the regression, a suitable benchmark model is to run a simple trial by s
 
 #### 6. Performance Metric 
 
-This model can be evaluated by using Mean Squared Error.
+This model can be evaluated by using the Mean Squared Error.
